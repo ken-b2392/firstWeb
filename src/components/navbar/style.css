@@ -1,0 +1,126 @@
+
+.NavbarContains{
+    box-sizing: border-box; 
+    margin:0;
+    padding:0; 
+    box-shadow: 2px 5px 5px black;  
+    position: sticky;
+    top: 0;  
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: white;
+}
+
+.webtitle{
+    font-size: 30px;
+    margin: .5 rem;
+}
+
+
+.navbar-links ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    
+}
+
+
+.navbar-links li{
+    list-style: none;
+}
+
+.navbar-links li a{
+    text-decoration: none;
+    color: white;
+    padding: 1rem;
+    display: block;
+
+}
+
+.navbar-links li:hover{
+    background-color: #555;
+}
+
+
+
+.fortoggle{
+    position: absolute;
+    top: 0;
+    right: 20px;
+    font-size: 26px;
+    display: none;
+    width: 30px;
+    height: 21px;
+}
+
+#toggle-button{
+    display: none;
+}
+
+@media (max-width: 600px){
+    .fortoggle{
+        display: block;
+        cursor: pointer;
+        
+    }
+    .navbar{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .navbar-links{
+        width: 100%;
+        display: none;
+    }
+
+    .navbar-links ul{
+        flex-direction: column;
+    } 
+    .navbar-links ul li {
+        width: 100%;
+        text-align: center;
+        border-bottom: 1px solid #EAEAEB;
+    }
+    #toggle-button:checked + .navbar-links{
+        display: block;
+    }
+    
+}
+
+@media (max-width: 1025px){
+    .fortoggle{
+        display: block;
+        cursor: pointer;
+        
+    }
+    .navbar{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .navbar-links{
+        width: 100%;
+        display: none;
+    }
+
+    .navbar-links ul{
+        flex-direction: column;
+    } 
+    .navbar-links ul li {
+        width: 100%;
+        text-align: center;
+        border-bottom: 1px solid #EAEAEB;
+    }
+    #toggle-button:checked + .navbar-links{
+        display: block;
+        
+    }
+    
+}
+
+

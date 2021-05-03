@@ -1,0 +1,187 @@
+.footerContainer{
+    background: #333;
+    width: 100%;
+    bottom: 0;
+    display: flex;
+    justify-content: space-evenly;
+    transition: ease-out .5s;
+    position: sticky;
+    bottom: 0;
+    position: fixed;
+}
+
+.fLeft{
+    width: 100%;
+    text-align: center;
+    background: #333;
+    color: white;
+    transition: ease-out .2s;
+}
+
+.fLeft:hover{
+    background:rgb(119, 119, 119);
+    color: black;
+    transition: ease-in .2s;
+}
+
+.fMiddle{
+    width: 100%;
+    text-align: center;
+    background: #333;
+    color: white;
+    transition: ease-out .2s;
+}
+
+.fMiddle:hover{
+    background:rgb(119, 119, 119);
+    color: black;
+    transition: ease-in .2s;
+}
+
+.fRight{
+    width: 100%;
+    text-align: center;
+    background: #333;
+    color: white;
+    transition: ease-out .2s;
+}
+
+.fRight:hover{
+    background:rgb(119, 119, 119);
+    color: black;
+    transition: ease-in .2s;
+}
+
+.footerHeaderL{
+    font-size: 15px;
+    font-weight: bold; 
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: block;
+}
+
+.footerHeaderM{
+    font-size: 15px;
+    font-weight: bold; 
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: block;
+}
+
+.footerHeaderR{
+    font-size: 15px;
+    font-weight: bold; 
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: block;
+}
+
+.footerContentL{
+    color: black;
+    font-size: 12px;
+}
+
+.footerContentM{
+    color: black;
+    font-size: 12px;
+}
+
+.footerContentR{
+    width: auto;
+}
+
+.footerContentR img{
+    width: 20px;
+    height: 20px;
+}
+
+.footer-navbar-links ul{
+    margin: 0;
+    padding: 0;
+}
+
+.footer-navbar-links li{
+    list-style: none;
+    margin-bottom: 10px;
+    font-size: 12px;
+}
+
+.footer-navbar-links li a{
+    text-decoration: none;
+    color: black;
+}
+
+#toggle-footerMContent{
+    display: none;
+}
+
+#toggle-footerRContent{
+    display: none;
+}
+
+#toggle-footerLContent{
+    display: none;
+}
+
+@media (max-width: 600px){
+    .footerContainer{
+        display: block;
+    }
+    .footerContentM{
+        display: none;
+    }
+
+    .footerHeaderM{
+        cursor: pointer;
+        background: #333;
+        padding: 1rem;
+        margin: 0;
+    }
+    .footerHeaderM:hover{
+        background:#333;
+        background: #555;
+    }
+
+    .footerHeaderR{
+        margin: 0;
+        cursor: pointer;
+        background:#333;
+        padding: 1rem;
+    }
+    .footerHeaderR:hover{
+        background:#333;
+        background: #555;
+    }
+
+    .footerHeaderL{
+        margin: 0;
+        cursor: pointer;
+        background: #333;
+        padding: 1rem;
+    }
+    .footerHeaderL:hover{
+        background:#333;
+        background: #555;
+    }
+
+    #toggle-footerMContent:checked + .footerContentM {
+        display: block;
+    }
+
+    #toggle-footerLContent:checked + .footerContentL{
+        display: block;
+    }
+
+    #toggle-footerRContent:checked + .footerContentR{
+        display: block;
+        margin-bottom: 20px;
+    }
+
+    .footerContentL{
+        display: none;
+    }
+    
+     .footerContentR{
+        display: none;
+    }
+}

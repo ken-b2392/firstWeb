@@ -1,0 +1,95 @@
+.containerbox{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 177px;
+}
+.containerAdd{
+    box-shadow: 2px 5px 5px #333;
+    width: 350px;
+}
+
+
+.addStudentContainer{
+    box-sizing: border-box;
+    display: flex;
+    padding: 10px;
+    width: 350px;
+}
+
+.forlabels{
+    display: flex;
+    flex-direction: column;
+    width: 145px;
+    text-align: right;
+    margin-right: 10px;
+}
+
+.forInputss{
+    display: block;
+    width: 200px;
+}
+
+.forInputss input{
+    width: 185px;
+    background: none;
+    border: black solid 1px;
+}
+
+.forInputss input:focus{
+    outline: none;
+}
+
+.forAddStud input{
+    border: 1px solid black;
+    box-sizing: border-box;
+    width: 95%;
+    color: #333;
+    background: none;
+    transition: ease-out .5s;
+}
+
+.forAddStud input:hover{
+    color: white;
+    background: #333;
+    transition: ease-in .5s;
+}
+
+.addStudH{
+    text-align: center;
+    box-sizing: border-box;
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+    box-shadow: 2px 5px 5px #333;
+}
+
+
+.forAddStud{
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.listOfStudents{
+    margin-bottom: 15px;
+    margin-top: 15px;
+    width: 700px;
+    height: 500px;
+    box-shadow: 2px 5px 5px #333;
+}
+
+.ListStudH{
+    padding: 5px;
+    width: 700px;
+    text-align: center;
+    box-sizing: border-box;
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+    box-shadow: 2px 5px 5px #333;   
+}
+
+.forListofStud{
+    padding: 5px;
+}

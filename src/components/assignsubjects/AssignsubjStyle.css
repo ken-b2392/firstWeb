@@ -1,0 +1,62 @@
+.Maincontainer{
+    box-sizing: border-box;
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 177px;
+}
+
+.Lcontainer{
+    width: 30%;
+    padding: 10px;
+    box-shadow: 2px 5px 5px #333;
+}
+
+.Mcontainer{
+    width: 30%;
+    padding: 10px;
+    box-shadow: 2px 5px 5px #333;
+}
+
+.Rcontainer{
+    width: 30%;
+    padding: 10px;
+    box-shadow: 2px 5px 5px #333;
+}
+
+.containerH{
+    box-shadow: 2px 5px 5px #333;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.containerContent{
+    margin-top: 10px;
+    text-align: center;
+}
+
+table{
+    width: 100%;
+}
+
+.assignbtn{
+    background-color: #555; 
+    border: none;
+    color: white;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: normal;
+}
+
+.assignbtn:hover{
+    background-color: white;
+    color: #555;
+}
+
+.assignbtn:focus{
+    outline: .5px solid black;
+    font-weight: bolder;
+}

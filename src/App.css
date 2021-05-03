@@ -1,0 +1,14 @@
+body{
+  font-family: 'Nunito', sans-serif;
+  background: #2f4aa3;
+  min-width: 307px;
+  background-image: url("../src/assets/images/background.jpg");
+  background-blend-mode: screen;
+  
+}
+
+
+.App{
+  width: 100%;
+  margin: 0 auto;
+}
